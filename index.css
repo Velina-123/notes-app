@@ -1,0 +1,149 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root
+{
+    --main-color :#786C96;
+    --color-a : #fff;
+    --main-font : "Roboto", sans-serif;
+}
+
+header, footer, main
+{
+    max-width: 412px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+form
+{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+header h1
+{   
+    background-color: var(--main-color);
+    color: var(--color-a);
+    font-size: 4rem;
+    font-family: var(--main-font);
+    font-weight: 200;
+    margin: 3rem 1rem;
+    padding: 0rem 0.5rem 0rem 1rem;
+    border-radius: 4px;
+    text-align: center;
+}
+header h1.singlePade-title
+{
+    font-size: 2.3gitrem;
+    padding: 1.5rem 0;
+    font-weight: 300;
+}
+.item
+{
+    background-color: var(--main-color);
+    margin: 3rem 1rem;
+    padding: 2.5rem 0.5rem 2.5rem 4rem;
+    border-radius: 4px;
+    background-image: url("images/Vector.png");
+    background-repeat: no-repeat;
+    background-position: 1rem;
+}
+.item a
+{
+    color: var(--color-a);
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-family: var(--main-font);
+}
+.item a:hover
+{
+   text-decoration: underline;
+}
+.singlePage-text
+{
+    background-color: var(--main-color);
+    color: var(--color-a);
+    font-family: var(--main-font);
+    padding: 3rem;
+    font-size: 1.3rem;
+    margin: 3rem 1rem;
+    min-height: 50vh;
+}
+.singlePage-text p
+{
+    margin: 0 0 1.5rem 0;
+}
+.singlePage-image
+{
+    margin: 3rem 1rem;
+}
+.singlePage-image img
+{
+    width: 100%;
+}
+.singlePage1 .date
+{
+    color: var(--color-a);
+    font-family: var(--main-font);
+    text-align: right;
+    margin: 0 1rem;;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+.singlePage1 .date span
+{   
+    background-color: var(--main-color);
+    padding: 1rem 2rem;
+}
+#navigation
+{
+    text-align: center;
+}
+#navigation a
+{
+    color: var(--color-a);
+    font-family: var(--main-font);
+    background-color: var(--main-color);
+    padding: 1rem 5rem;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+}
+#navigation a:hover
+{
+text-decoration: underline;
+}
+input.search
+{
+    border: #786C96 solid 1px;
+    border-radius: 4px;
+    filter: drop-shadow(3px 3px 3px #786C96);
+    width: 18.5rem;
+    height: 3rem;
+    margin: 0rem 0 0 2rem;
+ }
+#searchbutton
+{
+    background-image: url("images/hugeicons_ai-search-02.png");
+    background-color: unset;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    width: 45px;
+    height: 45px;
+    position: relative;
+    right: 3rem;
+ }
+#searchbutton:hover
+{
+    cursor: pointer;
+}
+#search-block
+{
+    display: flex;
+    width: 100%;
+    margin: 3rem 0 0 1rem;
+}
