@@ -22,7 +22,7 @@ form
     margin: 0;
     padding: 0;
     display: flex;
-    width: 80%;
+    width: 100%;
 }
 header h1
 {   
@@ -56,7 +56,7 @@ header h1.singlePade-title
 {
     color: var(--color-a);
     text-decoration: none;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     font-family: var(--main-font);
 }
 .item a:hover
@@ -115,6 +115,7 @@ header h1.singlePade-title
     text-decoration: none;
     font-size: 1rem;
     font-weight: 600;
+    border-radius: 4px;
 }
 #navigation a:hover
 {
@@ -144,11 +145,11 @@ input.search
     background-color: unset;
     background-repeat: no-repeat;
     background-position: center;
-    border: none;
     width: 45px;
     height: 45px;
+    border: none;
     position: relative;
-    right: 3rem;
+    right:3rem;
  }
 #searchbutton:hover
 {
