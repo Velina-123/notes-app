@@ -117,15 +117,11 @@ header h1.singlePade-title
     font-weight: 600;
     border-radius: 4px;
 }
-#navigation a:hover
-{
-text-decoration: underline;
-}
 input.search
 {
-    border: #786C96 solid 1px;
+    border: var(--main-color) solid 1px;
     border-radius: 4px;
-    filter: drop-shadow(3px 3px 3px #786C96);
+    filter: drop-shadow(3px 3px 3px var(--main-color));
     width: 100%;
     height: 3rem;
     margin: 0rem 0 0 2rem;
@@ -137,7 +133,7 @@ input.search
  input[type=text]:focus, input.search:active, input.search:hover, input.search:visited
  {
     outline: none !important;
-    filter: drop-shadow(7px 7px 7px #786C96);
+    filter: drop-shadow(7px 7px 7px var(--main-color));
  }
 #searchbutton
 {
